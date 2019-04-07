@@ -57,11 +57,27 @@ section.sushi h2 {
 	section {
 		float: left;
 		width: 32%;
-		margin: 5px;
+		margin: .5%;
+	}
+	section.chicken {
+		margin-left: 1%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+	section {
+		float: left;
+		margin: .5%;
+	}
+	section.chicken {
+		width: 49%;
+	}
+	section.beef {
+		width: 49%;
+	}
+	section.sushi {
+		clear: right;
+		width: 99%;
+	}
 }
 
