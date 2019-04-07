@@ -53,6 +53,7 @@ section.sushi h2 {
 	background-color: #33cccc;
 }
 
+
 @media (min-width: 992px) {
 	section {
 		float: left;
@@ -67,17 +68,23 @@ section.sushi h2 {
 @media (min-width: 768px) and (max-width: 991px) {
 	section {
 		float: left;
-		margin: .5%;
+		margin: 2.5%;
 	}
 	section.chicken {
-		width: 49%;
+		width: 45%;
 	}
 	section.beef {
-		width: 49%;
+		width: 45%;
 	}
 	section.sushi {
 		clear: right;
-		width: 99%;
+		width: 95%;
 	}
 }
 
+@media (max-width: 767px) {
+	section {
+		width: 90%;
+		margin:30px auto;
+	}
+}
