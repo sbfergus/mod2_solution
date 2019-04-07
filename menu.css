@@ -15,6 +15,11 @@ h1 {
 
 h2 {
 	font-size: 1.25em;
+	font-family: Arial, Verdana;
+}
+
+p {
+	font-family: Lucida, Verdana;
 }
 
 section {
@@ -23,7 +28,7 @@ section {
 	margin: 10px;
 }
 
-section h2{
+section h2 {
 	float: right;
 	border: 2px solid black;
 	border-width: 0px 0px 2px 2px;
