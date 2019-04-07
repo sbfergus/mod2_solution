@@ -35,3 +35,15 @@ section p {
 	clear: right;
 	padding: 10px;
 }
+
+section.chicken h2 {
+	background-color: #ff6600;
+}
+
+section.beef h2 {
+	background-color: #66ff66;
+}
+
+section.sushi h2 {
+	background-color: #33cccc;
+}
